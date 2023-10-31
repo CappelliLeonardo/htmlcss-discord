@@ -114,6 +114,10 @@ img{
 
 
     /* MAIN  */
+
+h2{
+    font-size: 200%;
+}
 .section{
     display: flex;
     max-width: 100%;
@@ -146,7 +150,9 @@ img{
 }
 .bottom-box{
     min-height: 600px;
-    width: 60%; 
+    width: 60%;
+    text-align: center;
+    padding-top: 30px;
 }
 .bottom-button{
     margin: 20px;
@@ -167,7 +173,6 @@ img{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 1px;
     padding-bottom: 20px;
     padding-top: 30px;
     color: white;
@@ -201,6 +206,8 @@ img{
 .box-link > div > ul > li{
     display: block;
 }
+
+
 
 .footer-bottom{
     width: 100%;
