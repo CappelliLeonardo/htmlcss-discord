@@ -55,6 +55,7 @@ img{
 .header{
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -101,8 +102,12 @@ img{
     text-align: center;
 }
 
-.header-bottom > div > h2{
+.header-bottom > div > h1{
     padding: 20px;
+}
+
+.header-bottom > div > p, .box-text > p, .bottom-box > p{
+    line-height: 25px;
 }
 
 .header-bottom-button{
@@ -165,8 +170,9 @@ h2{
 
 .background-bottom-box{
     background-image: url(../img/stars.svg);
-    text-align: center;
     padding: 10px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .section.second, .last-section{
     background-color: rgb(246, 246, 246)
@@ -210,6 +216,7 @@ h2{
 
 .box-link > div > ul > li{
     display: block;
+    margin: 10px 0;
 }
 
 
